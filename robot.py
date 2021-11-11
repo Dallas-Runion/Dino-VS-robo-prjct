@@ -6,5 +6,5 @@ class Robot:
     def __init__(self, name_bot):
         self.name = name_bot
         pass
-    def attack(self, name, attack_power):
+    def attack(self, dinosaur):
         pass
