@@ -1,4 +1,4 @@
-from dinosaur import Dinosaur
+# from dinosaur import Dinosaur
 from weapon import Weapon
 class Robot:
 
@@ -8,8 +8,8 @@ class Robot:
         self.name = name_bot
         self.weapon = Weapon("deathgun12", 10)
         self.health = health
-    def attack(self, Dinosaur):
-        Dinosaur.health -= self.weapon.attack_power
+    def attack(self, dinosaur):
+        dinosaur.health -= self.weapon.attack_power
         
     # def chang_wep(self, wep): ----------------------change wep 
     #     self.weapon =

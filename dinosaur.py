@@ -6,8 +6,8 @@ class Dinosaur:
         self.attack_power = attack_power
         self.health = health
         
-    def attack(self, Robot):
-        Robot.health -= self.attack_power
+    def attack(self, robot):
+        robot.health -= self.attack_power
 # dino_1 = Dinosaur("deathosaurs",10, 95)
 # dino_2 = Dinosaur("rockosaur",5,130)
 # dino_3= Dinosaur("megasours",15,75)
